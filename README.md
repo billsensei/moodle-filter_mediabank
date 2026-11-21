@@ -1,5 +1,7 @@
 # Media bank text alternatives (filter_mediabank)
 
+![Moodle Plugin CI](https://github.com/billsensei/moodle-filter_mediabank/actions/workflows/ci.yml/badge.svg)
+
 Companion to `contenttype_mediabank`, which it requires (install that one first). For Moodle 5.0 to 5.3. Status: **Alpha**.
 
 A text filter. For a file that a course **links** to from the Media bank, it carries the text kept with the item into the course:
@@ -8,4 +10,6 @@ A text filter. For a file that a course **links** to from the Media bank, it car
 
 Copies made from the bank are independent files and get nothing. Captions and transcripts are offered in activity descriptions, File, Page, Book and Folder content, and course and section summaries, and not in forum posts, assignments or blocks.
 
-Install the plugin zip from Site administration > Plugins > Install plugins, after the content type. Then switch it on under Site administration > Plugins > Filters > Manage filters. Release notes: `CHANGES.md`. The design is in `docs/CAPTIONS-DESIGN.md` in the project.
+Install the plugin zip from the [releases page](https://github.com/billsensei/moodle-filter_mediabank/releases) under Site administration > Plugins > Install plugins (not GitHub's "Download ZIP"), after the content type. Then switch it on under Site administration > Plugins > Filters > Manage filters. Release notes: `CHANGES.md`. The design is in [CAPTIONS-DESIGN.md](https://github.com/billsensei/moodle-contenttype_mediabank/blob/main/docs/CAPTIONS-DESIGN.md).
+
+The guides for all three plugins are in the [content type repository](https://github.com/billsensei/moodle-contenttype_mediabank/tree/main/docs). Licence: GNU GPL v3 or later, see [LICENSE](LICENSE).

@@ -1,0 +1,37 @@
+{
+    "name": "billsensei/moodle-filter_mediabank",
+    "description": "Media bank text alternatives for Moodle 5.0 to 5.3: text alternatives, captions and transcripts from the Media bank. Needs contenttype_mediabank.",
+    "keywords": [
+        "moodle",
+        "filter",
+        "alt text",
+        "captions",
+        "transcript",
+        "media"
+    ],
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/billsensei/moodle-filter_mediabank",
+    "authors": [
+        {
+            "name": "SenseiMoodle",
+            "homepage": "https://github.com/billsensei"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/billsensei/moodle-filter_mediabank/issues",
+        "source": "https://github.com/billsensei/moodle-filter_mediabank",
+        "docs": "https://github.com/billsensei/moodle-contenttype_mediabank/tree/main/docs"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "scripts": {
+        "build": "python3 scripts/build_release.py --out dist",
+        "validate-zip": "php scripts/validate_plugin_zip.php"
+    },
+    "scripts-descriptions": {
+        "build": "Build the plugin zip into ./dist (reproducible).",
+        "validate-zip": "Run Moodle's installer validation on the zip: --moodle=<path> --zip=<file> --component=filter_mediabank."
+    }
+}
